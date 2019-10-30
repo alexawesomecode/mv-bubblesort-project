@@ -25,3 +25,17 @@ end
 puts bubble_sort([4,3,78,2,0,2])
 
 
+
+
+def bubble_sort_by(a){
+    bubble_sort(a)
+}
+bubble_sort_by([4,3,78,2,0,2])
+
+
+
+
+
+
+
+
