@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def bubble_sort(arr)
   arr.each do |_item|
     index = 0
