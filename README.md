@@ -1,6 +1,6 @@
 # Mv-bubblesort-project
 
-this project implements a bubble sort algorithm for sorting arrays in Ruby
+This project implements a bubble sort algorithm for sorting arrays in Ruby
 
 # Technologies
 

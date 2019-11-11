@@ -1,12 +1,12 @@
-def bubble_sort(x)
-  x.each do |_item|
+def bubble_sort(arr)
+  arr.each do |_item|
     index = 0
     while index < x.size - 1
-      x[index], x[index + 1] = x[index + 1], x[index] if x[index] > x[index + 1]
+      arr[index], arr[index + 1] = arr[index + 1], arr[index] if arr[index] > arr[index + 1]
       index += 1
     end
   end
-  x
+  arr
 end
 
 puts bubble_sort([4, 3, 78, 2, 0, 2])
